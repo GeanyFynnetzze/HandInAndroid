@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_list"
+            android:title="Item List" />
+        <item
+            android:id="@+id/nav_pokedex"
+            android:icon="@drawable/ic_favorites"
+            android:title="PokeDex" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Quiz" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_mood_black_24dp"
+            android:title="Random intent" />
+
+    </group>
+
+    <item android:title="Bye bye button">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_mood_bad_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

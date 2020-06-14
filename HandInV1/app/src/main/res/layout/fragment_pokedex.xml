@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_pokebacground1"
+   >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="404dp"
+        android:textSize="25dp"
+        android:background="@android:color/white"
+        android:layout_height="70dp"
+        android:layout_marginBottom="27dp"
+        android:hint="       Introduce a name or an id"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_height="44dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="136dp"
+        android:onClick="updatePokemon"
+        android:text="find"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView123"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_pokedex"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.339"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <RelativeLayout
+        android:layout_width="392dp"
+        android:layout_height="219dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView123"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/heightView"
+            android:layout_width="147dp"
+            android:layout_height="44dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="40dp"
+            android:background="@android:color/white"
+            android:text="Weight"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.947"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/weightView"
+            android:layout_width="147dp"
+            android:layout_height="44dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="97dp"
+            android:background="@android:color/white"
+            android:text="Height"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="147dp"
+            android:layout_height="44dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="223dp"
+            android:layout_marginBottom="97dp"
+            android:background="@android:color/white"
+            android:text="Name"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

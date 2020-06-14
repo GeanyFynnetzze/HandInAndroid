@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "503988433359",
+    "firebase_url": "https://handinv1.firebaseio.com",
+    "project_id": "handinv1",
+    "storage_bucket": "handinv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503988433359:android:ee8e887b0d789216e9a2ba",
+        "android_client_info": {
+          "package_name": "com.example.handinv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503988433359-poifn8u3tgnspi9vfpg8klrp9iq2fth9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.handinv1",
+            "certificate_hash": "cea617b2b3162f42504cbc9c12129a698ca21377"
+          }
+        },
+        {
+          "client_id": "503988433359-ptp03pnu7infidgmnngovouhmpouith6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnygEQjY6xy9jDXDLcB2GpFZJlj4m0EfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503988433359-ptp03pnu7infidgmnngovouhmpouith6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
